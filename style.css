@@ -1,0 +1,180 @@
+body {
+	background-color: white;
+	font-family: 'Futura PT', sans-serif;
+}
+
+#image {
+	background-image: url(../img/fondtexture.jpg);
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	/*position: fixed;*/
+	background-attachment: fixed;
+}
+
+h2 {
+	font-weight: 400;
+	letter-spacing: 10px;
+	font-size: 100%;
+	z-index: 2;
+	color: white;
+
+}
+
+.container-fluid img {
+	width: 40%;
+	z-index: 10;
+	margin-top: 20%;
+	text-align: center;
+}
+
+#main-title-1 {
+	color: black;
+	text-align: center;
+	letter-spacing: 8px;
+	margin-top: 60px ;
+	/*top: 100vh;*/
+}
+#portfolio .col-md-3 img {
+	width: 100%;
+	height: auto;
+	margin-top: 15%;
+}
+#portfolio .col-md-3 h4 {
+	text-transform: uppercase;
+	color: black;
+	text-align: left;
+	font-weight: 700;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+h4{
+	font-size: 1.3rem;
+}
+#portfolio .col-md-3 p {
+	width: 50%;
+	float: left;
+	color: black;
+	text-align: right;
+	margin-right: 10%;
+	font-size: 12px;
+	margin-top: 2%;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#messervices .col-md-4 h3 {
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 8px;
+
+}
+a.more {
+	text-transform: uppercase;
+	color: black;
+	text-shadow: 0px 0px 0 black;
+	display: block;
+	padding: 5px;
+	border: 1px solid black;
+	width: 25%;
+	text-align: center;
+	float: right;
+	position: relative;
+	top: 15%;
+	font-size: 13px;
+}
+/*div.box {
+	position: relative;
+	left: 265px;
+    top: 35px;
+	width: 100px;
+	height: 100px;
+	border-top: none;
+	border-right: 1px solid #00FFCB;
+	border-bottom: 1px solid #00FFCB;
+	border-left: none;
+}*/
+a.moreproject {
+	margin-top: 35%;
+	letter-spacing: 9px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: black;
+	display: block;
+}
+
+#main-title-2 {
+	color: black;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-top: 25%;
+	/*top: 100vh;*/
+}
+
+#messervices .col-md-4 img {
+	width: 100%;
+	height: auto;
+	margin-top: 15%;
+	margin-bottom: 20%;
+}
+.col-md-12 h5{
+	color: black;
+	font-weight: 500;
+	letter-spacing: 10px;
+	font-size: 14px;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 8%;
+}
+#contact{
+	/*float: right;
+*/	margin-top: 5%;
+}
+
+.rs img{
+	width: 200px;
+}
+
+.contactform {
+	margin: auto;
+	width: 100%;
+	margin-right: 250px;
+}
+.form-group label{
+	color: white;
+	float: left;
+}
+.btn-primary{
+	background-color:black;
+}
+#rs .col-md-4 h3 {
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 8px;
+	margin-top: -50px;
+	margin-left: -60px;
+}
+#rs .col-md-4 img {
+	width: 80%;
+	height: auto;
+	margin-top: -25%;
+	text-align: center;
+}
+div.bordure {
+border-bottom:1px solid white;
+margin-top: 5%;
+}
+ #txtcopy{
+ 	color: black;
+ 	margin-top: 5%;
+ 	letter-spacing: 5px;
+ 	font-size: 15px;
+ 	margin-bottom: 5%;
+ }
